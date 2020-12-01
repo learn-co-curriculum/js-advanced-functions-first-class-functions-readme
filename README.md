@@ -101,12 +101,6 @@ Parentheses around a function expression are **only required if the function key
 
 Okay, great, so we can create functions with function expressions. So what?
 
-<picture>
-  <source srcset="https://curriculum-content.s3.amazonaws.com/web-development/js/advanced-functions/first-class-functions-readme/vince_mcmahon_1.webp" type="image/webp">
-  <source srcset="https://curriculum-content.s3.amazonaws.com/web-development/js/advanced-functions/first-class-functions-readme/vince_mcmahon_1.gif" type="image/gif">
-  <img src="https://curriculum-content.s3.amazonaws.com/web-development/js/advanced-functions/first-class-functions-readme/vince_mcmahon_1.gif" alt="Vince McMahon is disinterested.">
-</picture>
-
 ## Functions are objects
 
 In JavaScript, functions are what's known as _[first-class citizens][wiki]_ of the language. That means functions have the following four abilities:
@@ -266,12 +260,6 @@ console.log("myFunc()'s favorite number is", myFunc.favoriteNumber);
 // LOG: myFunc()'s favorite number is 42
 ```
 
-<picture>
-  <source srcset="https://curriculum-content.s3.amazonaws.com/web-development/js/advanced-functions/first-class-functions-readme/vince_mcmahon_3.webp" type="image/webp">
-  <source srcset="https://curriculum-content.s3.amazonaws.com/web-development/js/advanced-functions/first-class-functions-readme/vince_mcmahon_3.gif" type="image/gif">
-  <img src="https://curriculum-content.s3.amazonaws.com/web-development/js/advanced-functions/first-class-functions-readme/vince_mcmahon_3.gif" alt="Vince McMahon is surprised.">
-</picture>
-
 ### Storing functions in an array
 
 We can store functions as elements in an array:
@@ -330,12 +318,6 @@ for (const fn of arrayOfFunctions) {
 // LOG: cool!
 ```
 
-<picture>
-  <source srcset="https://curriculum-content.s3.amazonaws.com/web-development/js/advanced-functions/first-class-functions-readme/vince_mcmahon_4.webp" type="image/webp">
-  <source srcset="https://curriculum-content.s3.amazonaws.com/web-development/js/advanced-functions/first-class-functions-readme/vince_mcmahon_4.gif" type="image/gif">
-  <img src="https://curriculum-content.s3.amazonaws.com/web-development/js/advanced-functions/first-class-functions-readme/vince_mcmahon_4.gif" alt="Vince McMahon is intrigued.">
-</picture>
-
 ### Storing functions in objects
 
 We can also store functions as properties of an object:
@@ -368,12 +350,6 @@ ada.claimToFame();
 ```
 
 **_NOTE_**: When a function is stored in an object, we call it a _method_. It's also still a function, of course — methods are a subset of functions. We'll go much deeper into this in the lessons on object-oriented JavaScript, but keep the terminology in mind. A good rule of thumb: if you need to use the dot operator to invoke the function (as in `ada.greet()` instead of simply `greet()`), it's a method. For a common example, think of `console.log()`. We're invoking the `log()` method on the `console` object.
-
-<picture>
-  <source srcset="https://curriculum-content.s3.amazonaws.com/web-development/js/advanced-functions/first-class-functions-readme/vince_mcmahon_5.webp" type="image/webp">
-  <source srcset="https://curriculum-content.s3.amazonaws.com/web-development/js/advanced-functions/first-class-functions-readme/vince_mcmahon_5.gif" type="image/gif">
-  <img src="https://curriculum-content.s3.amazonaws.com/web-development/js/advanced-functions/first-class-functions-readme/vince_mcmahon_5.gif" alt="Vince McMahon is startled.">
-</picture>
 
 ### Returning functions from functions
 
@@ -485,12 +461,6 @@ Please don't ever do this in your actual code. The deeply nested example is simp
 2.  Functions can return other functions.
 3.  When a function returns another function, we can invoke its return value **because it's a function**!
 
-<picture>
-  <source srcset="https://curriculum-content.s3.amazonaws.com/web-development/js/advanced-functions/first-class-functions-readme/vince_mcmahon_6.webp" type="image/webp">
-  <source srcset="https://curriculum-content.s3.amazonaws.com/web-development/js/advanced-functions/first-class-functions-readme/vince_mcmahon_6.gif" type="image/gif">
-  <img src="https://curriculum-content.s3.amazonaws.com/web-development/js/advanced-functions/first-class-functions-readme/vince_mcmahon_6.gif" alt="Vince McMahon is excited.">
-</picture>
-
 ### Functions passed as arguments
 
 We already encountered this during the introduction to callback functions, but the concept is important enough to reiterate here: **functions can be passed into other functions as arguments**. Take a look at the following example:
@@ -563,12 +533,6 @@ hid(den)(mess)(age);
 // LOG: Inside mess()
 // LOG: Inside age()
 ```
-
-<picture>
-  <source srcset="https://curriculum-content.s3.amazonaws.com/web-development/js/advanced-functions/first-class-functions-readme/vince_mcmahon_7.webp" type="image/webp">
-  <source srcset="https://curriculum-content.s3.amazonaws.com/web-development/js/advanced-functions/first-class-functions-readme/vince_mcmahon_7.gif" type="image/gif">
-  <img src="https://curriculum-content.s3.amazonaws.com/web-development/js/advanced-functions/first-class-functions-readme/vince_mcmahon_7.gif" alt="Vince McMahon has lost it.">
-</picture>
 
 ## Immediately-invoked function expressions
 
