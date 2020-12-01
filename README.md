@@ -238,12 +238,6 @@ original();
 // LOG: I'm a new function!
 ```
 
-<picture>
-  <source srcset="https://curriculum-content.s3.amazonaws.com/web-development/js/advanced-functions/first-class-functions-readme/vince_mcmahon_2.webp" type="image/webp">
-  <source srcset="https://curriculum-content.s3.amazonaws.com/web-development/js/advanced-functions/first-class-functions-readme/vince_mcmahon_2.gif" type="image/gif">
-  <img src="https://curriculum-content.s3.amazonaws.com/web-development/js/advanced-functions/first-class-functions-readme/vince_mcmahon_2.gif" alt="Vince McMahon is interested.">
-</picture>
-
 ### Adding properties to a function
 
 Since a function is just a special object, we can add properties to functions and then access them:
